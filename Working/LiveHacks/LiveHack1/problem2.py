@@ -1,9 +1,17 @@
+Name:		problem1.py
+Purpose:	determine the chicken distribution for the students in class and remainder for Mr. Fabroa
 
-# get fahrenheit from user
-fahrenheit = float (input("Enter the fahrenheit: "))
+Author:	gornic.M
 
-# compute celsius from fahrenheit
-celsius = (5/9)*(fahrenheit - 32)
+Created:	date in 02/10/2019
 
-# output celsius
-print("The temperature in celsius is " + str(celsius))
+# get number of chickens and students
+students = 22
+chickens = float (input("Enter the number: "))
+
+# compute distribution
+mod = (students) % (chickens)
+print (mod)
+
+#output pieces and determine remainde that goes to Mr. Fabroa
+print("The chicken piece distribution " + str(mod))
