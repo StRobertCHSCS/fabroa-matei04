@@ -1,12 +1,3 @@
-Name:		practice1.py
-Purpose:	determine celsius using fahrenheit
-
-Author:	Gornic.M
-
-Created:	date in 01/10/2019
---------------------------------
-
-
 
 # get fahrenheit from user
 fahrenheit = float (input("Enter the fahrenheit: "))
